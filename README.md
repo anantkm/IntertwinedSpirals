@@ -149,29 +149,5 @@ changing tanh to relu, adding a third hidden layer, etc.
 </ol>
 
 </ol>
-
-<h3 id="submission">Submission</h3>
-<p>You should submit by typing</p>
-<pre>
-give cs9444 hw1 kuzu.py spiral.py hw1.pdf
-</pre>
-<p>You can submit as many times as you like - later submissions will overwrite earlier ones. You can check that your submission has been received by using the following command:</p>
-<p>9444 classrun -check</p>
-<p>The submission deadline is Sunday 12 July, 23:59. 15% penalty will be applied to the (maximum) mark for every 24 hours late after the deadline.</p>
-<p>Additional information may be found in the <a href=./faq.shtml>FAQ</a> and will be considered as part of the specification for the project. You should check this page regularly.</p>
-
-<h3 id="plagiarism-policy">Plagiarism Policy</h3>
-<p>Group submissions will not be allowed for this assignment. Your program must be entirely your own work. Plagiarism detection software will be used to compare all submissions pairwise and serious penalties will be applied, particularly in the case of repeat offences.</p>
-<p>
-<b>DO NOT COPY FROM OTHERS; DO NOT ALLOW ANYONE TO SEE YOUR CODE</b>
-<p>
-Please refer to the
-<a href="https://student.unsw.edu.au/plagiarism">UNSW Policy on Academic Integrity and Plagiarism</a>
-if you require further clarification on this matter.
-<P>
-<P>
-Good luck!
-<br>
-<HR>
 </BODY>
 </HTML>
