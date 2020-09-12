@@ -19,7 +19,7 @@ but we instead judge the generalization
 by plotting the function computed by the network
 and making a visual assessment.
 <ol>
-<li> [2 marks]
+<li> 
 Provide code for a Pytorch Module called
 <code>PolarNet</code>
 which operates as follows:
@@ -47,7 +47,7 @@ The <code>graph_output()</code> method will generate a picture of the function
 computed by your PolarNet called <code>polar_out.png</code>,
 which you should include in your report.
 <p>
-<li> [1 mark]
+<li>
 Provide code for a Pytorch Module called
 <code>RawNet</code>
 which operates on the raw input <code>(x,y)</code>
@@ -61,7 +61,7 @@ in the program <code>xor.py</code> from Exercises 5
 The number of neurons in both
 hidden layers should be determined by the parameter <code>num_hid</code>.
 <p>
-<li> [1 mark]
+<li> 
 Run the code by typing
 <pre>
 python3 spiral_main.py --net raw
@@ -76,7 +76,7 @@ The <code>graph_output()</code> method will generate a picture of the function
 computed by your RawNet called <code>raw_out.png</code>,
 which you should include in your report.
 <p>
-<li> [1 mark]
+<li> 
 Provide code for a Pytorch Module called
 <code>ShortNet</code>
 which again operates on the raw input <code>(x,y)</code>
@@ -91,7 +91,7 @@ layer, which is not enough to learn the task;
 in your code the number of neurons in both
 hidden layers should be determined by the parameter <code>num_hid</code>.
 <p>
-<li> [1 mark]
+<li> 
 Run the code by typing
 <pre>
 python3 spiral_main.py --net short
@@ -107,7 +107,7 @@ The <code>graph_output()</code> method will generate a picture of the function
 computed by your ShortNet called <code>short_out.png</code>,
 which you should include in your report.
 <p>
-<li> [2 marks]
+<li> 
 Using <code>graph_output()</code> as a guide, write a method called
 <code>graph_hidden(net, layer, node)</code>
 which plots the activation
@@ -126,25 +126,6 @@ Use this code to generate plots of all the hidden nodes
 in PolarNet, and all the hidden nodes in both layers of
 RawNet and ShortNet,
 and include them in your report.
-<p>
-<li> [9 marks]
-Discuss what you have learned from this exercise,
-including the following points:
-<ol type="a">
-<li> the qualitative difference between the functions
-computed by the hidden layer nodes of
-the three models, and a brief description of how
-the network uses these functions to achieve the classification
-<li> the effect of different values for initial weight size
-on the speed and success of learning, for both RawNet and ShortNet
-<li> the relative "naturalness" of the output function computed
-by the three networks, and the importance of representation
-for deep learning tasks in general
-<li> you may like to also experiment with other changes
-and comment on the result - for example,
-changing batch size from 97 to 194,
-using SGD instead of Adam,  
-changing tanh to relu, adding a third hidden layer, etc.
 </ol>
 
 </ol>
