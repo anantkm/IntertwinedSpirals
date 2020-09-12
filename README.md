@@ -6,12 +6,7 @@
 </HEAD>
 <BODY LANG="EN">
 <h2 align=center>COMP9444 Neural Networks and Deep Learning</h2>
-<h2 align=center>Term 2, 2020</h2>
-<h3 id="marking-scheme">Part 2: Twin Spirals Task</h3>
-<figure>
-<img src="spirals.jpg" height="384">
-</figure>
-<p>
+<h2 align=center>Twin Spirals Task</h2>
 For Part 2 you will be training on the famous
 Two Spirals Problem (Lang and Witbrock, 1988).
 The supplied code
